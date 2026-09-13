@@ -1,0 +1,4 @@
+Total Revenue = SUM(enterprise_kpis[revenue])
+Total Profit = SUM(enterprise_kpis[profit])
+Target Attainment % = DIVIDE(SUM(enterprise_kpis[actual_volume]), SUM(enterprise_kpis[target_volume]))
+Average Data Quality % = AVERAGE(enterprise_kpis[data_quality_pct])
